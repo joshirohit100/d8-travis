@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Module file contains module related hooks.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function dummy_module_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  drupal_set_message(t('Thanks for the form submission.'));
+}

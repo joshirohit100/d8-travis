@@ -1,0 +1,6 @@
+name: Dummy module for deprecation demo.
+type: module
+description: 'This is a dummy module used for deprecation checks.'
+package: Core
+version: VERSION
+core: 8.x

@@ -43,4 +43,4 @@ script:
   - ./../vendor/bin/phpunit -c core --testsuite unit --exclude-group Composer,DependencyInjection,PageCache,Setup
   - ./../vendor/bin/drush
   - if [[ $RELEASE = stable ]]; then ./../vendor/bin/drupal; fi;
-  - drupal-check ./../web/core/modules/node
+  - drupal-check ./../web/modules/custom
